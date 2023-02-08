@@ -55,7 +55,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.afToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.начатьЗановоToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.новыйТестToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.sum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.difference)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).BeginInit();
@@ -71,7 +71,6 @@
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(200, 30);
             this.timeLabel.TabIndex = 0;
-            this.timeLabel.Click += new System.EventHandler(this.timeLabel_Click);
             // 
             // label1
             // 
@@ -307,17 +306,17 @@
             // afToolStripMenuItem
             // 
             this.afToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.начатьЗановоToolStripMenuItem});
+            this.новыйТестToolStripMenuItem});
             this.afToolStripMenuItem.Name = "afToolStripMenuItem";
-            this.afToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
-            this.afToolStripMenuItem.Text = "Меню";
+            this.afToolStripMenuItem.Size = new System.Drawing.Size(59, 24);
+            this.afToolStripMenuItem.Text = "Файл";
             // 
-            // начатьЗановоToolStripMenuItem
+            // новыйТестToolStripMenuItem
             // 
-            this.начатьЗановоToolStripMenuItem.Name = "начатьЗановоToolStripMenuItem";
-            this.начатьЗановоToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.начатьЗановоToolStripMenuItem.Text = "Начать заново";
-            this.начатьЗановоToolStripMenuItem.Click += new System.EventHandler(this.начатьЗановоToolStripMenuItem_Click);
+            this.новыйТестToolStripMenuItem.Name = "новыйТестToolStripMenuItem";
+            this.новыйТестToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.новыйТестToolStripMenuItem.Text = "Новый тест";
+            this.новыйТестToolStripMenuItem.Click += new System.EventHandler(this.новыйТестToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -353,7 +352,6 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Математический тест";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.sum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.difference)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).EndInit();
@@ -393,7 +391,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem afToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem начатьЗановоToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem новыйТестToolStripMenuItem;
     }
 }
 

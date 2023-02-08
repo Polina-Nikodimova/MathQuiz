@@ -44,10 +44,6 @@ namespace MathQuiz
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
         public void StartTheQuiz()
         {
             // Fill in the addition problem.
@@ -112,11 +108,6 @@ namespace MathQuiz
             startButton.Enabled = false;
         }
 
-        private void timeLabel_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (CheckTheAnswer())
@@ -167,7 +158,7 @@ namespace MathQuiz
             }
         }
 
-        private void начатьЗановоToolStripMenuItem_Click(object sender, EventArgs e)
+        private void новыйТестToolStripMenuItem_Click(object sender, EventArgs e)
         {
             StartTheQuiz();
             timeLabel.BackColor = Color.White;
